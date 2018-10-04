@@ -10,7 +10,7 @@ def self.new_by_filename(filename)
   song.artist_name = (filename.split(" - ")[0])
   song
 end
-def self.artist 
+def self.artist
   self.artist.name
 end
 # def artist_name=(name)
