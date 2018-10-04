@@ -9,3 +9,4 @@ class Song
     @@all << self
     # return nil if !artist.include?(song)
   end
+end
